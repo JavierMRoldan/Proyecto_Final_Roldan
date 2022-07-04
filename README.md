@@ -10,7 +10,7 @@ el superusuario es:
 user: javier 
 password: adminadmin
 
-http://127.0.0.1:8000/home/ --> la ruta del menu de inicio del programa.
+http://127.0.0.1:8000/home/ --> la ruta del home del programa.
 
 * Desde el "home" se puede acceder al:
 	- "about" donde se encuentra la información sobre mi.
