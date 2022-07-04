@@ -1,4 +1,4 @@
-# Proyecto_Final_Roldan
+# Proyecto_Final_Roldan_Python&Django
 
 Mi nombre es Javier Roldan y este es mi proyecto final de Python y Django. 
 El proyecto final lo hice solo desde cero.
