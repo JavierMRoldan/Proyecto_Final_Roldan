@@ -1,0 +1,25 @@
+{% extends "padre.html" %}
+
+{% load static %}
+
+{% block contenido %}
+<nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'home' %}">Home</a>
+        <a class="navbar-brand" href="{% url 'about' %}">Acerca de mi</a>
+        <a class="btn btn-primary" href="{% url 'blogs' %}">Blogs</a>
+        <a class="btn btn-primary" href="{% url 'login' %}">Login</a>
+        <a class="btn btn-primary" href="{% url 'register' %}">Registrarse</a>
+        
+
+    </div>
+</nav>
+<main>
+
+    <h1>Hola, bienvenido a mi proyecto final de Python y Django, de la mano de Coderhouse</h1>
+    
+    
+
+</main>
+
+{% endblock %}

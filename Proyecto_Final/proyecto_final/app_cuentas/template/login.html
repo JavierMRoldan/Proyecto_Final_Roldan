@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{% static 'app_cuentas/css/styles.css' %}" rel="stylesheet" />
+</head>
+<body>
+    
+    <form class="p-3 mt-3" method="POST">
+
+    {% csrf_token %}
+
+	{{ form.as_p }}
+
+    <button class="btn mt-3" type="submit" id="submit">Login</button>
+    
+    </form>
+    <div class="text-center fs-6">
+        <a href="{% url 'home' %}">Cancelar</button>
+    </div>
+</body>
+</html>
