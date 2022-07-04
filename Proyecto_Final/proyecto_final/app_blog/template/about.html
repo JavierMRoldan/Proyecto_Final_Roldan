@@ -1,0 +1,25 @@
+{% extends "padre.html" %}
+
+{% load static %}
+
+{% block contenido %}
+<nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'home' %}">Home</a>
+        <a class="navbar-brand" href="{% url 'about' %}">Acerca de mi</a>
+        <a class="btn btn-primary" href="{% url 'blogs' %}">Blogs</a>
+        <a class="btn btn-primary" href="{% url 'login' %}">Login</a>
+        <a class="btn btn-primary" href="{% url 'register' %}">Registrarse</a>
+        
+
+    </div>
+</nav>
+
+<main>
+    
+    <h2>Mi nombre es Javier Roldan, tengo 23 años, soy estudiante de ingeniería informática en UADE.</h2>
+    
+
+</main>
+
+{% endblock %}
